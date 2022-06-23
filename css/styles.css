@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: gold;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 25%;
+    border: 2px solid silver;
+    cursor: pointer;
+}
+table {
+    margin: 0 auto;
+    padding: 1px;
+    border-collapse: collapse;
+    background-color: gold;
+    border: none;
+}
+td {
+    padding: 7px;
+    border: 2px solid silver;
+    transition: .2s;
+}
+tr {
+    border: 10px;
+}
+td:hover {
+    background-color: PapayaWhip;
+}
